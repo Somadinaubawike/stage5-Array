@@ -27,7 +27,7 @@ products.forEach(e => {
   html += `
       <div class="product-card col-12 col-md-3 col-lg-3 p-4 bg-light">
         <div class="product-img">
-          <img src="/images/shoe1.jpg" alt="" class="img-fluid">
+          <img src="../stage5-Array/images/shoe1.jpg" alt="" class="img-fluid">
         </div>
         <div class="product-info">
           <h1>charge-001</h1>
