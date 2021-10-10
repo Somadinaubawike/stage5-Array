@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid container">
+          <a class="navbar-brand text-secondary" href="index.html">Charge</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active"  href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="/images/menu.svg" alt="">
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="index.html">Home</a></li>
+                  <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="gallery bg-dark container-fluid">
+        <div class="container-fluid">
+          <div class="text-white font fs1 px-5">
+            <h2>Available Products</h2>
+          </div>
+          <div class="row py-5 mx-auto justify-content-between" id="chargeProducts">
+            <div class="product-card col-12 col-md-3 col-lg-3 p-4 bg-light">
+              <div class="product-img">
+                <img src="/images/shoe1.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="product-info">
+                <h1>charge-001</h1>
+                <p class="fw-bold">$50</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <script src="/script/script.js"></script>
+      <script src="/script/bootstrap.min.js"></script>  
+</body>
+</html>

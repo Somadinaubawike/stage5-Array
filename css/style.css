@@ -1,0 +1,29 @@
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-section {
+    background: url(/images/hero-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.font {
+    font-family: 'Fleur De Leah', cursive;
+}
+
+.fs1 {
+    font-size: 4.5rem;
+}
+
+.b {
+    border: 1px solid white;
+}
+
+.quote-text {
+    width: 300px;
+    height: 450px;
+}
