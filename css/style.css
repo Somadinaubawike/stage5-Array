@@ -5,7 +5,7 @@
 }
 
 .hero-section {
-    background: url(../images/hero-img.jpg);
+    background: url(/stage5-Array/images/hero-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
